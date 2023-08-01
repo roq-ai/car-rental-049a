@@ -1,0 +1,1502 @@
+[
+  {
+    "vehicle": [
+      {
+        "id": "d9e97446-c1cb-4825-8f33-8fe9c76044e3",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-07-31T22:13:21.581Z",
+        "updated_at": "2023-08-01T17:31:42.564Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c4aa587-e757-441b-9c5e-6f92d19b202c",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T07:24:36.045Z",
+        "updated_at": "2023-07-31T21:30:14.387Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eaca65be-f579-4b89-a4d1-82d84201ca32",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-07-31T21:00:30.120Z",
+        "updated_at": "2023-08-01T08:28:16.651Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33d05604-a6a9-4d5b-bdcf-b8e908b701ee",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-01T17:06:07.129Z",
+        "updated_at": "2023-08-01T18:17:06.752Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5668222d-3bfa-4280-8fb3-0c36e3b0eab1",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-01T17:58:53.111Z",
+        "updated_at": "2023-08-01T14:28:42.029Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "1c36d030-d317-4015-9322-f38ef61bcbae",
+        "usage_info": "Daily commute",
+        "created_at": "2023-08-01T11:33:15.734Z",
+        "updated_at": "2023-08-01T10:27:30.559Z",
+        "vehicle_id": "1c4aa587-e757-441b-9c5e-6f92d19b202c"
+      },
+      {
+        "id": "3da8eb3d-bd9a-4a88-a94b-8b2242f74f73",
+        "usage_info": "Family road trips",
+        "created_at": "2023-08-01T05:05:35.246Z",
+        "updated_at": "2023-07-31T23:26:19.477Z",
+        "vehicle_id": "eaca65be-f579-4b89-a4d1-82d84201ca32"
+      },
+      {
+        "id": "1e7eb6b9-478f-4039-b9f1-76553d57ef27",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-08-01T14:08:47.522Z",
+        "updated_at": "2023-08-01T10:18:16.841Z",
+        "vehicle_id": "d9e97446-c1cb-4825-8f33-8fe9c76044e3"
+      },
+      {
+        "id": "2f32f0b4-e165-42c4-bd9f-053dbe35fc34",
+        "usage_info": "Business travel",
+        "created_at": "2023-08-01T01:08:27.308Z",
+        "updated_at": "2023-08-01T12:30:07.892Z",
+        "vehicle_id": "5668222d-3bfa-4280-8fb3-0c36e3b0eab1"
+      },
+      {
+        "id": "983fd5e9-36f4-48c9-a2ea-1791e31346b1",
+        "usage_info": "City driving",
+        "created_at": "2023-08-01T05:00:23.506Z",
+        "updated_at": "2023-08-01T03:55:38.390Z",
+        "vehicle_id": "eaca65be-f579-4b89-a4d1-82d84201ca32"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "d4b3a58a-316f-4e52-855c-e30ad3091df7",
+        "reservation_info": "Beach vacation",
+        "created_at": "2023-08-01T15:23:02.428Z",
+        "updated_at": "2023-08-01T17:57:23.987Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b37981db-e7fc-4893-b0c4-41491012172a",
+        "reservation_info": "Mountain getaway",
+        "created_at": "2023-08-01T00:23:11.979Z",
+        "updated_at": "2023-08-01T08:32:31.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88ad02a2-1ead-4ea5-b495-0f0de9f3f4d8",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T14:23:56.314Z",
+        "updated_at": "2023-08-01T13:12:49.365Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66919eca-963b-48dd-9838-952b1268c974",
+        "reservation_info": "National park visit",
+        "created_at": "2023-08-01T05:28:13.514Z",
+        "updated_at": "2023-08-01T17:35:10.325Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "186848f1-1904-415c-b4f7-bdd123e261b3",
+        "reservation_info": "City exploration",
+        "created_at": "2023-08-01T13:00:52.224Z",
+        "updated_at": "2023-08-01T15:26:38.181Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "af2b7432-698b-41d0-971a-aef2985963cc",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-08-01T07:24:42.151Z",
+        "updated_at": "2023-07-31T21:01:01.284Z",
+        "vehicle_id": "eaca65be-f579-4b89-a4d1-82d84201ca32"
+      },
+      {
+        "id": "76d00793-79ae-490c-afdf-0301d3b15795",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-08-01T00:30:31.044Z",
+        "updated_at": "2023-08-01T13:17:50.790Z",
+        "vehicle_id": "1c4aa587-e757-441b-9c5e-6f92d19b202c"
+      },
+      {
+        "id": "b7c62d7e-ebfb-4edd-b591-4617f0596242",
+        "assessment_info": "Project assessment",
+        "created_at": "2023-08-01T18:07:41.837Z",
+        "updated_at": "2023-08-01T06:44:24.236Z",
+        "vehicle_id": "1c4aa587-e757-441b-9c5e-6f92d19b202c"
+      },
+      {
+        "id": "4832dd71-ff3e-4187-94c1-9cdad3fe779a",
+        "assessment_info": "Performance appraisal",
+        "created_at": "2023-08-01T15:32:01.286Z",
+        "updated_at": "2023-08-01T05:31:29.593Z",
+        "vehicle_id": "5668222d-3bfa-4280-8fb3-0c36e3b0eab1"
+      },
+      {
+        "id": "d961a3ff-76e2-4e87-a6d9-c440ce6b501a",
+        "assessment_info": "Team performance analysis",
+        "created_at": "2023-08-01T11:43:03.699Z",
+        "updated_at": "2023-07-31T20:27:20.002Z",
+        "vehicle_id": "d9e97446-c1cb-4825-8f33-8fe9c76044e3"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "a0a81bcf-b554-4e23-9f16-b7a0410e6728",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-01T14:15:58.451Z",
+        "updated_at": "2023-08-01T13:54:41.014Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abc66847-c4c4-48cd-9f70-14d0b82997ff",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T16:49:29.843Z",
+        "updated_at": "2023-07-31T20:39:35.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b77a684e-4afa-4ed6-a939-7bf205e485ae",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-01T03:42:43.316Z",
+        "updated_at": "2023-08-01T06:33:08.546Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4619236f-f2bb-4926-9632-0afa5df29d17",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-07-31T22:27:14.949Z",
+        "updated_at": "2023-08-01T05:33:02.195Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f9a34d9-53e7-485c-a0d7-b7676ac84766",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-07-31T22:27:47.873Z",
+        "updated_at": "2023-08-01T04:36:28.412Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "59426b5a-a856-4be5-83ba-2b28ad3406f2",
+        "usage_info": "Daily commute",
+        "created_at": "2023-08-01T15:58:07.766Z",
+        "updated_at": "2023-08-01T10:57:23.440Z",
+        "vehicle_id": "a0a81bcf-b554-4e23-9f16-b7a0410e6728"
+      },
+      {
+        "id": "68340ca2-4b80-4b8b-bd7d-9b63756d2dd7",
+        "usage_info": "Family road trips",
+        "created_at": "2023-08-01T13:52:45.963Z",
+        "updated_at": "2023-07-31T23:53:25.174Z",
+        "vehicle_id": "2f9a34d9-53e7-485c-a0d7-b7676ac84766"
+      },
+      {
+        "id": "8e85de8a-e8c0-49b9-92de-53136ec09a59",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-08-01T06:59:58.929Z",
+        "updated_at": "2023-08-01T09:01:28.361Z",
+        "vehicle_id": "abc66847-c4c4-48cd-9f70-14d0b82997ff"
+      },
+      {
+        "id": "2b0ab246-f8cb-4f43-b5be-ead4f22cb759",
+        "usage_info": "Business travel",
+        "created_at": "2023-07-31T23:11:13.406Z",
+        "updated_at": "2023-07-31T21:23:50.549Z",
+        "vehicle_id": "b77a684e-4afa-4ed6-a939-7bf205e485ae"
+      },
+      {
+        "id": "4a4dc7cd-2044-46ae-a283-936fd0942398",
+        "usage_info": "City driving",
+        "created_at": "2023-08-01T16:19:50.353Z",
+        "updated_at": "2023-08-01T13:28:47.154Z",
+        "vehicle_id": "a0a81bcf-b554-4e23-9f16-b7a0410e6728"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "25d448f3-9692-434d-b76c-75154734d9b5",
+        "reservation_info": "Beach vacation",
+        "created_at": "2023-08-01T03:30:21.950Z",
+        "updated_at": "2023-08-01T07:45:43.986Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cfd6506-bcf7-4366-b590-c7c8b534fc01",
+        "reservation_info": "Mountain getaway",
+        "created_at": "2023-08-01T10:44:47.124Z",
+        "updated_at": "2023-08-01T18:25:54.125Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05e3787f-539a-4df3-a081-8861d0c0a324",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T00:18:45.484Z",
+        "updated_at": "2023-08-01T17:15:46.886Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56615fbe-d9d4-4e55-b880-9c33287e42aa",
+        "reservation_info": "National park visit",
+        "created_at": "2023-07-31T19:36:40.394Z",
+        "updated_at": "2023-08-01T04:39:36.055Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ff2f39a-926f-466a-b151-b08921f24c63",
+        "reservation_info": "City exploration",
+        "created_at": "2023-08-01T05:21:05.163Z",
+        "updated_at": "2023-07-31T22:59:48.508Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "7d7e4db9-3313-4358-81e2-be825f15bb6f",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-08-01T17:43:56.341Z",
+        "updated_at": "2023-08-01T12:00:20.167Z",
+        "vehicle_id": "2f9a34d9-53e7-485c-a0d7-b7676ac84766"
+      },
+      {
+        "id": "74b11615-98c9-4264-98e1-2b4806855296",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-08-01T04:23:23.443Z",
+        "updated_at": "2023-07-31T19:37:31.473Z",
+        "vehicle_id": "a0a81bcf-b554-4e23-9f16-b7a0410e6728"
+      },
+      {
+        "id": "e90bd897-ae27-4ade-9fbe-7e856fc3b724",
+        "assessment_info": "Project assessment",
+        "created_at": "2023-08-01T03:07:49.219Z",
+        "updated_at": "2023-08-01T06:06:09.775Z",
+        "vehicle_id": "abc66847-c4c4-48cd-9f70-14d0b82997ff"
+      },
+      {
+        "id": "f8b489e1-5dee-4d0c-90e0-51e655ad58f7",
+        "assessment_info": "Performance appraisal",
+        "created_at": "2023-08-01T17:07:47.364Z",
+        "updated_at": "2023-08-01T06:56:46.390Z",
+        "vehicle_id": "a0a81bcf-b554-4e23-9f16-b7a0410e6728"
+      },
+      {
+        "id": "dc25d296-b67c-4a80-8b8a-4746d540c600",
+        "assessment_info": "Team performance analysis",
+        "created_at": "2023-08-01T08:41:15.324Z",
+        "updated_at": "2023-08-01T05:38:14.291Z",
+        "vehicle_id": "a0a81bcf-b554-4e23-9f16-b7a0410e6728"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "7aa39ebd-cdfb-4eaf-b09d-23a69f5c3087",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-01T13:23:20.463Z",
+        "updated_at": "2023-08-01T14:26:41.893Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a871b680-fe23-4e34-bd84-2daedab40074",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T03:50:22.704Z",
+        "updated_at": "2023-08-01T17:54:04.073Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e516851-54d5-4e4e-8ddc-1e6cdd00af13",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-01T11:37:08.798Z",
+        "updated_at": "2023-08-01T05:45:13.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdf75b88-0dfd-4a95-97dc-1ce2f6d18598",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-01T17:55:53.308Z",
+        "updated_at": "2023-08-01T16:16:06.775Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb8ae861-16d3-4f7c-a266-22300d5b879e",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-01T14:02:12.887Z",
+        "updated_at": "2023-07-31T19:53:30.371Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "706f7ba2-7a7e-4438-9cb4-4a74d1149bbe",
+        "usage_info": "Daily commute",
+        "created_at": "2023-08-01T05:27:38.057Z",
+        "updated_at": "2023-07-31T22:52:09.076Z",
+        "vehicle_id": "a871b680-fe23-4e34-bd84-2daedab40074"
+      },
+      {
+        "id": "e6bcd7bf-6323-4153-93a8-3e7e3ee45fb0",
+        "usage_info": "Family road trips",
+        "created_at": "2023-08-01T04:15:54.364Z",
+        "updated_at": "2023-08-01T10:03:38.467Z",
+        "vehicle_id": "7aa39ebd-cdfb-4eaf-b09d-23a69f5c3087"
+      },
+      {
+        "id": "80cf31fa-12e8-4d5f-8328-d533dfa1435a",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-08-01T06:02:46.790Z",
+        "updated_at": "2023-08-01T02:17:19.355Z",
+        "vehicle_id": "a871b680-fe23-4e34-bd84-2daedab40074"
+      },
+      {
+        "id": "6a0988b3-66f9-4fd8-9e34-d693c715f533",
+        "usage_info": "Business travel",
+        "created_at": "2023-07-31T21:52:32.582Z",
+        "updated_at": "2023-08-01T03:05:20.429Z",
+        "vehicle_id": "fdf75b88-0dfd-4a95-97dc-1ce2f6d18598"
+      },
+      {
+        "id": "9ac9226f-9424-4175-9ba9-7ad74dd1b842",
+        "usage_info": "City driving",
+        "created_at": "2023-08-01T04:59:08.922Z",
+        "updated_at": "2023-08-01T07:00:15.468Z",
+        "vehicle_id": "fb8ae861-16d3-4f7c-a266-22300d5b879e"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "3a3f4cf5-68bf-4e76-b8a8-6cccef7cc905",
+        "reservation_info": "Beach vacation",
+        "created_at": "2023-07-31T20:13:45.441Z",
+        "updated_at": "2023-08-01T06:01:58.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aa665af-b1e9-4d9f-a44b-76d33f2b1633",
+        "reservation_info": "Mountain getaway",
+        "created_at": "2023-08-01T13:32:27.737Z",
+        "updated_at": "2023-08-01T13:18:11.409Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6201ba74-b0dc-4158-b083-d73dbff3b5a8",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T05:42:34.769Z",
+        "updated_at": "2023-08-01T18:42:26.907Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c86f327-bdac-475e-9263-0f25063f13b1",
+        "reservation_info": "National park visit",
+        "created_at": "2023-08-01T00:36:58.574Z",
+        "updated_at": "2023-08-01T10:14:10.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "575228e5-f42d-43fc-992a-ec802cab550f",
+        "reservation_info": "City exploration",
+        "created_at": "2023-07-31T19:22:16.308Z",
+        "updated_at": "2023-08-01T02:30:35.437Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "12d3c493-a8c2-4bb3-a8a2-8067dbd9843e",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-08-01T01:24:44.675Z",
+        "updated_at": "2023-08-01T19:21:06.462Z",
+        "vehicle_id": "7aa39ebd-cdfb-4eaf-b09d-23a69f5c3087"
+      },
+      {
+        "id": "3af5dcb5-79b5-48a2-bef6-e0adc7d62678",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-08-01T09:02:01.264Z",
+        "updated_at": "2023-08-01T17:12:21.554Z",
+        "vehicle_id": "7aa39ebd-cdfb-4eaf-b09d-23a69f5c3087"
+      },
+      {
+        "id": "b11ddd6d-951d-4ae1-a2a5-086fde82c35a",
+        "assessment_info": "Project assessment",
+        "created_at": "2023-08-01T02:57:25.824Z",
+        "updated_at": "2023-07-31T23:29:30.813Z",
+        "vehicle_id": "8e516851-54d5-4e4e-8ddc-1e6cdd00af13"
+      },
+      {
+        "id": "2f1212a9-1ab8-4582-8d11-e9c1687f68ad",
+        "assessment_info": "Performance appraisal",
+        "created_at": "2023-08-01T18:41:53.496Z",
+        "updated_at": "2023-07-31T22:57:52.780Z",
+        "vehicle_id": "8e516851-54d5-4e4e-8ddc-1e6cdd00af13"
+      },
+      {
+        "id": "4b6d3909-4625-450b-a869-de758439bfde",
+        "assessment_info": "Team performance analysis",
+        "created_at": "2023-08-01T13:48:39.526Z",
+        "updated_at": "2023-08-01T02:53:24.857Z",
+        "vehicle_id": "a871b680-fe23-4e34-bd84-2daedab40074"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "da9040a1-2b68-41b9-a895-2777e47e068c",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-01T15:11:44.981Z",
+        "updated_at": "2023-08-01T15:50:45.940Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0bd0b51-7724-426a-91ad-d495e12d2171",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T06:31:08.439Z",
+        "updated_at": "2023-08-01T03:54:34.074Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd61e2e5-cc6c-446c-aa48-984028799c70",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-01T17:23:01.019Z",
+        "updated_at": "2023-08-01T13:25:11.960Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a16226d7-e9f3-471b-8190-1b00cb4102cf",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-01T16:53:04.480Z",
+        "updated_at": "2023-07-31T20:17:12.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c91924e-b77d-4180-8ed4-56a0eec613d2",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-07-31T22:17:47.088Z",
+        "updated_at": "2023-08-01T15:43:51.636Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "6c94c18d-3f22-4623-92c4-19104925886e",
+        "usage_info": "Daily commute",
+        "created_at": "2023-08-01T14:03:37.786Z",
+        "updated_at": "2023-08-01T19:05:09.659Z",
+        "vehicle_id": "da9040a1-2b68-41b9-a895-2777e47e068c"
+      },
+      {
+        "id": "1f3e1da6-e508-4047-8ae5-9d4bd2657d77",
+        "usage_info": "Family road trips",
+        "created_at": "2023-08-01T18:29:32.373Z",
+        "updated_at": "2023-08-01T02:34:44.670Z",
+        "vehicle_id": "6c91924e-b77d-4180-8ed4-56a0eec613d2"
+      },
+      {
+        "id": "72b22b5d-e65a-48b1-9c0a-95f03eb746cb",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-08-01T17:47:50.510Z",
+        "updated_at": "2023-08-01T11:12:13.294Z",
+        "vehicle_id": "da9040a1-2b68-41b9-a895-2777e47e068c"
+      },
+      {
+        "id": "bb4386cb-0ff7-49f5-8f54-d2c0ab8f6c09",
+        "usage_info": "Business travel",
+        "created_at": "2023-08-01T04:37:54.017Z",
+        "updated_at": "2023-08-01T10:55:42.137Z",
+        "vehicle_id": "6c91924e-b77d-4180-8ed4-56a0eec613d2"
+      },
+      {
+        "id": "ae488209-028f-48b9-843c-1d9bf46bf8ec",
+        "usage_info": "City driving",
+        "created_at": "2023-08-01T00:28:50.641Z",
+        "updated_at": "2023-08-01T07:48:06.643Z",
+        "vehicle_id": "6c91924e-b77d-4180-8ed4-56a0eec613d2"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "d53787ff-70f2-403b-b48e-7d96aa05b2d2",
+        "reservation_info": "Beach vacation",
+        "created_at": "2023-08-01T05:22:22.864Z",
+        "updated_at": "2023-08-01T04:40:25.818Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "271406ac-a72b-493e-83d0-fb7d45c061ad",
+        "reservation_info": "Mountain getaway",
+        "created_at": "2023-08-01T07:32:48.489Z",
+        "updated_at": "2023-08-01T16:34:09.960Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d71388d-963a-47c6-b95b-e19ea42f7505",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T04:22:53.610Z",
+        "updated_at": "2023-08-01T00:05:09.403Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32698172-3f00-43d7-8da9-7835b0900c07",
+        "reservation_info": "National park visit",
+        "created_at": "2023-08-01T02:08:22.042Z",
+        "updated_at": "2023-07-31T21:19:13.515Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7da1eb28-2cad-4a8f-8bfc-940a06ff7e81",
+        "reservation_info": "City exploration",
+        "created_at": "2023-08-01T14:45:04.469Z",
+        "updated_at": "2023-08-01T00:05:34.645Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "34e34d31-f5c6-4f46-ab9e-b50295b8524e",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-08-01T09:01:49.443Z",
+        "updated_at": "2023-08-01T12:54:17.121Z",
+        "vehicle_id": "da9040a1-2b68-41b9-a895-2777e47e068c"
+      },
+      {
+        "id": "8907fdb4-5fb5-461a-b3fa-91e70546967e",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-08-01T16:12:46.564Z",
+        "updated_at": "2023-08-01T08:25:25.137Z",
+        "vehicle_id": "da9040a1-2b68-41b9-a895-2777e47e068c"
+      },
+      {
+        "id": "6e377a32-a547-468e-8a7b-e25d426144ef",
+        "assessment_info": "Project assessment",
+        "created_at": "2023-08-01T15:37:16.357Z",
+        "updated_at": "2023-08-01T08:31:52.289Z",
+        "vehicle_id": "da9040a1-2b68-41b9-a895-2777e47e068c"
+      },
+      {
+        "id": "b8b4b53c-57f3-408e-a2d9-9c7c36e529b4",
+        "assessment_info": "Performance appraisal",
+        "created_at": "2023-08-01T07:14:02.117Z",
+        "updated_at": "2023-08-01T19:02:52.867Z",
+        "vehicle_id": "6c91924e-b77d-4180-8ed4-56a0eec613d2"
+      },
+      {
+        "id": "f85c8e8a-3dcc-4b4c-a19a-cc963fe0f31d",
+        "assessment_info": "Team performance analysis",
+        "created_at": "2023-08-01T15:32:11.426Z",
+        "updated_at": "2023-07-31T22:26:58.637Z",
+        "vehicle_id": "a16226d7-e9f3-471b-8190-1b00cb4102cf"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "9eae2211-92dc-4430-bd72-214b186a4310",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-07-31T20:05:32.609Z",
+        "updated_at": "2023-07-31T22:21:40.516Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47467de2-33bd-4e7a-ba15-0d983f537fc1",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T06:03:34.442Z",
+        "updated_at": "2023-07-31T20:07:06.107Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee1a0131-6051-4ee3-bd24-3eb8113346b4",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-01T14:39:42.091Z",
+        "updated_at": "2023-08-01T08:57:42.818Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ac11958-7bee-45c2-bb85-a14d37751617",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-07-31T21:03:38.921Z",
+        "updated_at": "2023-08-01T02:20:08.177Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed0bbd78-daba-497e-8439-102eed4f24bd",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-01T08:02:11.719Z",
+        "updated_at": "2023-08-01T00:39:05.262Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "4c63fba0-fd60-4537-b120-d8d57908eb3c",
+        "usage_info": "Daily commute",
+        "created_at": "2023-08-01T19:04:37.695Z",
+        "updated_at": "2023-08-01T17:49:09.453Z",
+        "vehicle_id": "ee1a0131-6051-4ee3-bd24-3eb8113346b4"
+      },
+      {
+        "id": "4458014f-312e-4bd3-b8f2-b720bd8927df",
+        "usage_info": "Family road trips",
+        "created_at": "2023-08-01T16:24:35.069Z",
+        "updated_at": "2023-08-01T16:53:53.402Z",
+        "vehicle_id": "9eae2211-92dc-4430-bd72-214b186a4310"
+      },
+      {
+        "id": "158d2a01-b9ca-446d-8328-6611e778cee3",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-08-01T14:30:21.356Z",
+        "updated_at": "2023-08-01T02:33:12.317Z",
+        "vehicle_id": "4ac11958-7bee-45c2-bb85-a14d37751617"
+      },
+      {
+        "id": "27f149d6-de40-41bb-806f-affc27a62535",
+        "usage_info": "Business travel",
+        "created_at": "2023-07-31T21:20:36.676Z",
+        "updated_at": "2023-08-01T06:40:48.316Z",
+        "vehicle_id": "9eae2211-92dc-4430-bd72-214b186a4310"
+      },
+      {
+        "id": "b78de1f6-2657-46c4-aaa5-952bd27437af",
+        "usage_info": "City driving",
+        "created_at": "2023-07-31T23:48:50.941Z",
+        "updated_at": "2023-07-31T22:11:55.254Z",
+        "vehicle_id": "4ac11958-7bee-45c2-bb85-a14d37751617"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "12b17707-8f4a-4e5d-a2c8-3e72b9e792eb",
+        "reservation_info": "Beach vacation",
+        "created_at": "2023-07-31T23:20:29.290Z",
+        "updated_at": "2023-08-01T11:08:38.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8b5c599-bf6d-444f-a1d7-32dd0b6f5f6c",
+        "reservation_info": "Mountain getaway",
+        "created_at": "2023-08-01T13:43:39.686Z",
+        "updated_at": "2023-07-31T20:12:23.632Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bd73f01-2830-4b48-9dab-c39764c7d5a6",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T12:49:59.747Z",
+        "updated_at": "2023-08-01T03:44:02.448Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27be6ec5-cf86-41f8-ad7d-d7fdfc9af908",
+        "reservation_info": "National park visit",
+        "created_at": "2023-08-01T16:17:15.406Z",
+        "updated_at": "2023-08-01T04:42:17.657Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69bc58dd-62b2-4670-a575-a6c8b945ea03",
+        "reservation_info": "City exploration",
+        "created_at": "2023-08-01T08:51:49.081Z",
+        "updated_at": "2023-08-01T16:48:11.085Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "ba71d3f2-6491-4764-9b4d-85eda051a3a7",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-07-31T23:59:17.765Z",
+        "updated_at": "2023-08-01T14:17:42.986Z",
+        "vehicle_id": "4ac11958-7bee-45c2-bb85-a14d37751617"
+      },
+      {
+        "id": "67db29d3-4722-41e9-a2ad-baeea7ad8bf7",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-08-01T17:32:45.429Z",
+        "updated_at": "2023-08-01T01:27:10.750Z",
+        "vehicle_id": "47467de2-33bd-4e7a-ba15-0d983f537fc1"
+      },
+      {
+        "id": "2b600892-4047-4ecf-96b0-41aa2740046a",
+        "assessment_info": "Project assessment",
+        "created_at": "2023-07-31T23:09:50.868Z",
+        "updated_at": "2023-07-31T23:26:22.444Z",
+        "vehicle_id": "ee1a0131-6051-4ee3-bd24-3eb8113346b4"
+      },
+      {
+        "id": "0abb8f0c-e64a-42f5-8975-aa50301cac14",
+        "assessment_info": "Performance appraisal",
+        "created_at": "2023-08-01T08:59:17.204Z",
+        "updated_at": "2023-08-01T12:30:07.483Z",
+        "vehicle_id": "ee1a0131-6051-4ee3-bd24-3eb8113346b4"
+      },
+      {
+        "id": "bd48feb4-3591-4454-91b9-0195b2c68308",
+        "assessment_info": "Team performance analysis",
+        "created_at": "2023-08-01T09:59:41.206Z",
+        "updated_at": "2023-08-01T10:15:35.850Z",
+        "vehicle_id": "ee1a0131-6051-4ee3-bd24-3eb8113346b4"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "035da9dc-5ea6-42c9-9dab-e2e7d1f23e36",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-01T14:20:14.103Z",
+        "updated_at": "2023-08-01T14:59:28.238Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4acdf85-adff-48d3-9455-9be366a7aaa0",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T06:19:39.795Z",
+        "updated_at": "2023-08-01T07:46:47.058Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b69e716b-e100-4a5e-832d-8b15ea2ea00a",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-01T01:32:22.466Z",
+        "updated_at": "2023-08-01T19:03:01.306Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb762802-89df-473d-8112-8688fea03e0d",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-01T05:30:04.001Z",
+        "updated_at": "2023-08-01T10:40:17.348Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10f59750-f6ba-42d9-8631-339c4d477754",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-01T15:00:41.878Z",
+        "updated_at": "2023-07-31T23:51:53.165Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "6b410475-95ad-4487-8cc7-85ac0374e325",
+        "usage_info": "Daily commute",
+        "created_at": "2023-07-31T20:41:26.747Z",
+        "updated_at": "2023-08-01T03:48:52.059Z",
+        "vehicle_id": "b69e716b-e100-4a5e-832d-8b15ea2ea00a"
+      },
+      {
+        "id": "d8b231f6-f54e-4e3b-a3b8-825d445e95ce",
+        "usage_info": "Family road trips",
+        "created_at": "2023-08-01T09:25:45.304Z",
+        "updated_at": "2023-08-01T00:17:02.562Z",
+        "vehicle_id": "10f59750-f6ba-42d9-8631-339c4d477754"
+      },
+      {
+        "id": "6f76c8eb-54a9-45a6-968b-29997210b714",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-07-31T21:25:35.979Z",
+        "updated_at": "2023-08-01T04:10:41.984Z",
+        "vehicle_id": "fb762802-89df-473d-8112-8688fea03e0d"
+      },
+      {
+        "id": "4c50867e-d40e-4735-a256-29ba510352c4",
+        "usage_info": "Business travel",
+        "created_at": "2023-08-01T11:16:31.742Z",
+        "updated_at": "2023-08-01T09:42:58.987Z",
+        "vehicle_id": "b69e716b-e100-4a5e-832d-8b15ea2ea00a"
+      },
+      {
+        "id": "b229dd1a-046c-45a9-a587-185eb107530e",
+        "usage_info": "City driving",
+        "created_at": "2023-07-31T21:32:13.237Z",
+        "updated_at": "2023-08-01T09:30:19.216Z",
+        "vehicle_id": "b69e716b-e100-4a5e-832d-8b15ea2ea00a"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "e1a7125b-e486-420d-b992-1f7cd2410cc0",
+        "reservation_info": "Beach vacation",
+        "created_at": "2023-07-31T23:55:45.681Z",
+        "updated_at": "2023-07-31T20:54:19.659Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa4010bb-3657-4ed6-815e-e391c8403a09",
+        "reservation_info": "Mountain getaway",
+        "created_at": "2023-08-01T12:28:37.062Z",
+        "updated_at": "2023-08-01T14:51:23.297Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "649d943e-7767-4b17-9cb4-59686554cdf3",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T05:02:38.590Z",
+        "updated_at": "2023-08-01T07:45:48.340Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50f965e4-9408-4532-a19f-243dee5eccce",
+        "reservation_info": "National park visit",
+        "created_at": "2023-08-01T07:23:29.576Z",
+        "updated_at": "2023-08-01T01:50:33.543Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5e14776-be45-49e3-baad-7b15dd7890a8",
+        "reservation_info": "City exploration",
+        "created_at": "2023-08-01T16:41:08.625Z",
+        "updated_at": "2023-08-01T02:26:39.040Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "984cb1fc-061f-49a1-bcf6-237e1bf507a3",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-08-01T14:30:42.704Z",
+        "updated_at": "2023-08-01T04:10:31.277Z",
+        "vehicle_id": "10f59750-f6ba-42d9-8631-339c4d477754"
+      },
+      {
+        "id": "b71174be-fe11-45d5-bd0f-5fbe412f66c0",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-08-01T08:59:22.694Z",
+        "updated_at": "2023-08-01T08:50:04.950Z",
+        "vehicle_id": "10f59750-f6ba-42d9-8631-339c4d477754"
+      },
+      {
+        "id": "e37d0db0-5b0a-4144-afd9-d30c1ff67c4e",
+        "assessment_info": "Project assessment",
+        "created_at": "2023-08-01T09:01:41.718Z",
+        "updated_at": "2023-08-01T03:04:10.340Z",
+        "vehicle_id": "b4acdf85-adff-48d3-9455-9be366a7aaa0"
+      },
+      {
+        "id": "6766d7a3-806e-4f35-9d42-ee42420461a9",
+        "assessment_info": "Performance appraisal",
+        "created_at": "2023-08-01T14:43:17.348Z",
+        "updated_at": "2023-08-01T17:27:13.584Z",
+        "vehicle_id": "035da9dc-5ea6-42c9-9dab-e2e7d1f23e36"
+      },
+      {
+        "id": "55c714e7-f68e-4e5d-aaf5-9239763ad422",
+        "assessment_info": "Team performance analysis",
+        "created_at": "2023-08-01T18:10:10.881Z",
+        "updated_at": "2023-07-31T21:43:38.488Z",
+        "vehicle_id": "b69e716b-e100-4a5e-832d-8b15ea2ea00a"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "99db5878-17a7-4c98-b1ac-7c4aff6ecf58",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-01T13:09:46.302Z",
+        "updated_at": "2023-07-31T20:49:04.045Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ee91d1c-0d9f-43e8-8bff-ddcfef8b1fa3",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T05:40:38.162Z",
+        "updated_at": "2023-08-01T01:46:17.710Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed766c64-1548-46ec-9d75-6f10f83a9878",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-07-31T22:00:55.798Z",
+        "updated_at": "2023-07-31T21:50:09.371Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96b0c37a-b51a-493d-9c08-2f4bd47c5768",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-01T09:16:19.644Z",
+        "updated_at": "2023-07-31T22:30:04.166Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c6c87f4-dd42-4688-96a8-1eb519795ff7",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-01T01:07:40.034Z",
+        "updated_at": "2023-08-01T17:10:52.546Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "c6ba9f9c-89ed-49ab-9b11-f95d8d888217",
+        "usage_info": "Daily commute",
+        "created_at": "2023-08-01T02:38:18.921Z",
+        "updated_at": "2023-08-01T06:35:22.413Z",
+        "vehicle_id": "ed766c64-1548-46ec-9d75-6f10f83a9878"
+      },
+      {
+        "id": "fc41a907-b2e8-459f-844c-ab36ae57445e",
+        "usage_info": "Family road trips",
+        "created_at": "2023-08-01T04:40:04.034Z",
+        "updated_at": "2023-08-01T18:17:32.888Z",
+        "vehicle_id": "99db5878-17a7-4c98-b1ac-7c4aff6ecf58"
+      },
+      {
+        "id": "dcf7c0e4-ed79-4070-b758-c5152edd1ff6",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-08-01T17:04:27.722Z",
+        "updated_at": "2023-08-01T17:44:06.882Z",
+        "vehicle_id": "99db5878-17a7-4c98-b1ac-7c4aff6ecf58"
+      },
+      {
+        "id": "3834fed4-2be5-4a12-9acb-ed46e4bad58c",
+        "usage_info": "Business travel",
+        "created_at": "2023-08-01T15:33:57.050Z",
+        "updated_at": "2023-08-01T09:40:35.253Z",
+        "vehicle_id": "99db5878-17a7-4c98-b1ac-7c4aff6ecf58"
+      },
+      {
+        "id": "63ecfd13-8687-4532-b6e1-6d023529ce0f",
+        "usage_info": "City driving",
+        "created_at": "2023-08-01T01:10:17.250Z",
+        "updated_at": "2023-07-31T21:40:49.587Z",
+        "vehicle_id": "ed766c64-1548-46ec-9d75-6f10f83a9878"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "ec5ff9ff-f3a1-4d76-b0e8-91d6d0cdc8b8",
+        "reservation_info": "Weekend getaway",
+        "created_at": "2023-07-31T22:58:43.071Z",
+        "updated_at": "2023-08-01T13:11:48.547Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b250bbcc-54d3-4924-9e07-5ec6797bfb01",
+        "reservation_info": "Vacation in the mountains",
+        "created_at": "2023-07-31T23:14:43.832Z",
+        "updated_at": "2023-07-31T19:57:30.837Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be70798d-bfed-45b5-9b38-291111620edd",
+        "reservation_info": "Beach holiday",
+        "created_at": "2023-07-31T22:22:24.519Z",
+        "updated_at": "2023-08-01T12:12:08.581Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c96e96d6-7ba8-4391-a214-45701b0095e5",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T11:11:31.845Z",
+        "updated_at": "2023-08-01T16:39:08.852Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63f6f613-2edc-4497-8c18-53fc0d6e7859",
+        "reservation_info": "Exploring a new city",
+        "created_at": "2023-07-31T23:04:10.452Z",
+        "updated_at": "2023-08-01T19:17:38.331Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "616981ef-8bf6-4333-a65f-19b33baf3dee",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-08-01T05:30:23.068Z",
+        "updated_at": "2023-08-01T04:41:51.444Z",
+        "vehicle_id": "1c6c87f4-dd42-4688-96a8-1eb519795ff7"
+      },
+      {
+        "id": "7c05cbbc-9de4-44bd-9623-7898f2226ed2",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-07-31T21:32:01.795Z",
+        "updated_at": "2023-07-31T23:51:36.528Z",
+        "vehicle_id": "0ee91d1c-0d9f-43e8-8bff-ddcfef8b1fa3"
+      },
+      {
+        "id": "0b9fd11d-866b-4f1c-bc90-dbe1a3ce9691",
+        "assessment_info": "Project performance",
+        "created_at": "2023-08-01T03:28:07.093Z",
+        "updated_at": "2023-08-01T01:52:18.332Z",
+        "vehicle_id": "0ee91d1c-0d9f-43e8-8bff-ddcfef8b1fa3"
+      },
+      {
+        "id": "8d8dbdb2-fa32-4256-96cb-4734ba2c4d60",
+        "assessment_info": "Team assessment",
+        "created_at": "2023-08-01T15:28:45.178Z",
+        "updated_at": "2023-08-01T06:07:58.876Z",
+        "vehicle_id": "0ee91d1c-0d9f-43e8-8bff-ddcfef8b1fa3"
+      },
+      {
+        "id": "dafd367d-6fb2-4efc-8aab-8a42e356f0c8",
+        "assessment_info": "Individual performance",
+        "created_at": "2023-07-31T23:01:03.838Z",
+        "updated_at": "2023-08-01T01:15:15.121Z",
+        "vehicle_id": "99db5878-17a7-4c98-b1ac-7c4aff6ecf58"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "96b4370e-b7fd-43ae-b994-41c0925742a1",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-01T05:08:12.644Z",
+        "updated_at": "2023-08-01T02:19:13.018Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7b04ff6-4ab9-4b05-810a-96b8380293f9",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T07:37:40.719Z",
+        "updated_at": "2023-08-01T16:32:06.202Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7cee5fbd-1545-452e-96e9-b4ebb5b59e09",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-01T02:55:35.850Z",
+        "updated_at": "2023-08-01T09:05:13.173Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ac35d3f-4a3e-49fa-9d95-f85842610f0f",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-07-31T23:26:35.204Z",
+        "updated_at": "2023-08-01T09:29:19.156Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ee5705e-0af8-4c5c-acb8-7b06693a0e3b",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-01T17:54:58.669Z",
+        "updated_at": "2023-07-31T21:22:53.943Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "d3680fec-d8c2-49fa-9079-f43383e230d9",
+        "usage_info": "Daily commute",
+        "created_at": "2023-08-01T03:08:49.586Z",
+        "updated_at": "2023-08-01T06:20:38.746Z",
+        "vehicle_id": "7cee5fbd-1545-452e-96e9-b4ebb5b59e09"
+      },
+      {
+        "id": "5361a58e-0e84-47ab-877b-187262f0cc36",
+        "usage_info": "Family road trips",
+        "created_at": "2023-08-01T11:21:50.131Z",
+        "updated_at": "2023-07-31T22:47:17.015Z",
+        "vehicle_id": "96b4370e-b7fd-43ae-b994-41c0925742a1"
+      },
+      {
+        "id": "3fbbc108-0b48-4b29-9440-0af8cb5abdb8",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-08-01T10:39:26.102Z",
+        "updated_at": "2023-07-31T20:27:07.285Z",
+        "vehicle_id": "3ee5705e-0af8-4c5c-acb8-7b06693a0e3b"
+      },
+      {
+        "id": "dec15b88-f8e9-4f4b-9365-c0c1a0386d2e",
+        "usage_info": "Business travel",
+        "created_at": "2023-08-01T14:27:19.288Z",
+        "updated_at": "2023-07-31T23:45:06.083Z",
+        "vehicle_id": "96b4370e-b7fd-43ae-b994-41c0925742a1"
+      },
+      {
+        "id": "e65934bd-4d7e-477c-9da4-e5b1364eb140",
+        "usage_info": "City driving",
+        "created_at": "2023-08-01T01:37:15.316Z",
+        "updated_at": "2023-08-01T02:59:13.129Z",
+        "vehicle_id": "96b4370e-b7fd-43ae-b994-41c0925742a1"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "5150d765-c400-4c35-809d-ff67c077356e",
+        "reservation_info": "Beach vacation",
+        "created_at": "2023-08-01T13:44:59.543Z",
+        "updated_at": "2023-08-01T03:02:33.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5040a362-bcc8-426e-8d0c-0bd382627c2d",
+        "reservation_info": "Mountain getaway",
+        "created_at": "2023-08-01T11:23:32.829Z",
+        "updated_at": "2023-08-01T12:02:55.776Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2011d4e3-3692-4a84-8b96-cbc64dea1de5",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T12:47:50.155Z",
+        "updated_at": "2023-08-01T01:05:01.078Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bc377e8-5774-470a-bf50-cbecd72c4ce9",
+        "reservation_info": "National park visit",
+        "created_at": "2023-08-01T02:24:07.959Z",
+        "updated_at": "2023-08-01T12:59:56.146Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9fbfd94-1ced-431a-b5f0-72f71d804dfc",
+        "reservation_info": "City exploration",
+        "created_at": "2023-08-01T09:49:26.359Z",
+        "updated_at": "2023-08-01T09:23:39.302Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "7a639e73-c22d-4174-ad56-87db121aa0d0",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-08-01T03:16:01.489Z",
+        "updated_at": "2023-08-01T06:06:03.575Z",
+        "vehicle_id": "3ee5705e-0af8-4c5c-acb8-7b06693a0e3b"
+      },
+      {
+        "id": "39314af4-42f9-409b-a316-cc721ab879c2",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-08-01T16:05:37.961Z",
+        "updated_at": "2023-08-01T07:41:50.965Z",
+        "vehicle_id": "96b4370e-b7fd-43ae-b994-41c0925742a1"
+      },
+      {
+        "id": "6f3dcb12-87bb-4a14-8a8e-98bfdb0c154c",
+        "assessment_info": "Project assessment",
+        "created_at": "2023-08-01T19:09:01.079Z",
+        "updated_at": "2023-08-01T16:12:55.738Z",
+        "vehicle_id": "e7b04ff6-4ab9-4b05-810a-96b8380293f9"
+      },
+      {
+        "id": "400cd278-22b9-4ff1-ba54-72e043c52c67",
+        "assessment_info": "Performance appraisal",
+        "created_at": "2023-08-01T00:17:30.742Z",
+        "updated_at": "2023-08-01T18:39:49.236Z",
+        "vehicle_id": "96b4370e-b7fd-43ae-b994-41c0925742a1"
+      },
+      {
+        "id": "152388a8-d454-457e-90e0-9e089350aea9",
+        "assessment_info": "Team performance analysis",
+        "created_at": "2023-07-31T22:34:45.884Z",
+        "updated_at": "2023-08-01T03:10:43.386Z",
+        "vehicle_id": "6ac35d3f-4a3e-49fa-9d95-f85842610f0f"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "b7cb6ddf-44bc-439e-820f-e6f8e102237a",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-01T18:36:31.386Z",
+        "updated_at": "2023-07-31T22:20:02.125Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e90d1e1-da20-4dc8-a9dc-6c7b5211df10",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T15:30:04.536Z",
+        "updated_at": "2023-08-01T15:19:54.999Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "693b28de-7db1-4a89-9628-2b44b0519765",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-01T14:41:11.176Z",
+        "updated_at": "2023-08-01T09:04:46.351Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c371a87-9ab9-4f74-a24e-19011357b45e",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-01T04:46:10.414Z",
+        "updated_at": "2023-08-01T17:09:26.097Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd6222cc-bc39-4583-85fa-2e0829a89a20",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-01T06:00:26.829Z",
+        "updated_at": "2023-08-01T17:26:20.907Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "0f420249-c9e8-45ca-9cd7-307512127f70",
+        "usage_info": "Daily commute",
+        "created_at": "2023-08-01T11:38:35.012Z",
+        "updated_at": "2023-08-01T14:08:22.511Z",
+        "vehicle_id": "1e90d1e1-da20-4dc8-a9dc-6c7b5211df10"
+      },
+      {
+        "id": "702472c8-1d66-41ae-9e5c-a86fa807770c",
+        "usage_info": "Family road trips",
+        "created_at": "2023-07-31T22:32:24.869Z",
+        "updated_at": "2023-08-01T12:24:29.080Z",
+        "vehicle_id": "693b28de-7db1-4a89-9628-2b44b0519765"
+      },
+      {
+        "id": "14fbc15c-4f82-4656-8e33-7425d6d89504",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-08-01T11:13:08.517Z",
+        "updated_at": "2023-08-01T18:46:43.182Z",
+        "vehicle_id": "fd6222cc-bc39-4583-85fa-2e0829a89a20"
+      },
+      {
+        "id": "324d87eb-bad9-4eba-a3a6-5a2e29850de0",
+        "usage_info": "Business travel",
+        "created_at": "2023-08-01T09:36:02.576Z",
+        "updated_at": "2023-08-01T03:04:56.701Z",
+        "vehicle_id": "fd6222cc-bc39-4583-85fa-2e0829a89a20"
+      },
+      {
+        "id": "f7112a5a-2ead-4199-b329-7b8751410f4b",
+        "usage_info": "City driving",
+        "created_at": "2023-07-31T19:26:57.110Z",
+        "updated_at": "2023-08-01T18:29:32.995Z",
+        "vehicle_id": "693b28de-7db1-4a89-9628-2b44b0519765"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "959efc82-828d-445b-a78f-0e120ec7ce3e",
+        "reservation_info": "Beach vacation",
+        "created_at": "2023-08-01T09:35:23.987Z",
+        "updated_at": "2023-08-01T00:18:23.919Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32cafa5b-06df-472d-a5eb-d5c1125647d2",
+        "reservation_info": "Mountain getaway",
+        "created_at": "2023-08-01T08:17:46.315Z",
+        "updated_at": "2023-08-01T15:57:42.748Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ead105d6-e614-4e85-951f-2f36f46c23fc",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T12:50:01.809Z",
+        "updated_at": "2023-08-01T16:50:44.371Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "595555c5-9226-43c2-b10f-9f282be0646e",
+        "reservation_info": "National park visit",
+        "created_at": "2023-08-01T06:48:41.184Z",
+        "updated_at": "2023-08-01T00:53:09.887Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5495e3e4-585a-4f3a-8273-ccbf8c072936",
+        "reservation_info": "City exploration",
+        "created_at": "2023-08-01T16:46:26.631Z",
+        "updated_at": "2023-07-31T23:58:02.729Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "a7999ce7-0fd5-4bf4-b18f-5a90f833ebda",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-08-01T13:45:58.937Z",
+        "updated_at": "2023-08-01T02:47:16.921Z",
+        "vehicle_id": "fd6222cc-bc39-4583-85fa-2e0829a89a20"
+      },
+      {
+        "id": "a9c6bfd4-20ea-4a4b-9729-d073a01ea800",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-08-01T06:15:43.793Z",
+        "updated_at": "2023-08-01T03:49:57.007Z",
+        "vehicle_id": "b7cb6ddf-44bc-439e-820f-e6f8e102237a"
+      },
+      {
+        "id": "07e8bfbc-903e-4fea-b80b-5a3daec4a6c7",
+        "assessment_info": "Project assessment",
+        "created_at": "2023-08-01T05:43:51.798Z",
+        "updated_at": "2023-08-01T12:39:26.192Z",
+        "vehicle_id": "5c371a87-9ab9-4f74-a24e-19011357b45e"
+      },
+      {
+        "id": "529f234a-6ccc-46d8-a82a-4b4113aa13f5",
+        "assessment_info": "Performance appraisal",
+        "created_at": "2023-08-01T00:04:30.646Z",
+        "updated_at": "2023-08-01T07:43:01.581Z",
+        "vehicle_id": "b7cb6ddf-44bc-439e-820f-e6f8e102237a"
+      },
+      {
+        "id": "7c868125-ca95-4c15-88cd-b09dac6d5554",
+        "assessment_info": "Team performance analysis",
+        "created_at": "2023-08-01T08:09:17.342Z",
+        "updated_at": "2023-08-01T08:23:39.462Z",
+        "vehicle_id": "693b28de-7db1-4a89-9628-2b44b0519765"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "fc787e82-30e5-42d6-8ab6-a83cc9bd68e5",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-01T17:27:47.876Z",
+        "updated_at": "2023-07-31T23:41:24.981Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea9e8e70-2690-41d4-9f72-7fdeea7ff776",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-01T07:49:44.969Z",
+        "updated_at": "2023-08-01T18:06:46.060Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efbc85b8-3a0d-43cf-a1d0-72c45004ef19",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-01T12:06:27.005Z",
+        "updated_at": "2023-07-31T22:14:18.403Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be168295-cc8b-438f-9e99-293326fb38b3",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-07-31T19:27:23.526Z",
+        "updated_at": "2023-08-01T13:52:44.598Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce8795c1-9700-4f61-acc6-16caa3614019",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-01T17:57:45.214Z",
+        "updated_at": "2023-08-01T15:18:11.223Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "377da324-f96b-42ce-9636-54f3094bc2b9",
+        "usage_info": "Daily commute",
+        "created_at": "2023-08-01T06:02:40.555Z",
+        "updated_at": "2023-07-31T19:38:50.298Z",
+        "vehicle_id": "ce8795c1-9700-4f61-acc6-16caa3614019"
+      },
+      {
+        "id": "2ca36472-4855-451f-96af-1e3a369064c7",
+        "usage_info": "Family road trips",
+        "created_at": "2023-08-01T12:25:26.912Z",
+        "updated_at": "2023-08-01T06:48:06.027Z",
+        "vehicle_id": "ea9e8e70-2690-41d4-9f72-7fdeea7ff776"
+      },
+      {
+        "id": "45c63416-9add-4041-b1f4-8612da030909",
+        "usage_info": "Off-road adventures",
+        "created_at": "2023-08-01T09:49:45.572Z",
+        "updated_at": "2023-07-31T21:39:11.905Z",
+        "vehicle_id": "be168295-cc8b-438f-9e99-293326fb38b3"
+      },
+      {
+        "id": "e963122d-4eaf-4ab6-aea7-59a8607ef84e",
+        "usage_info": "Business travel",
+        "created_at": "2023-08-01T13:33:35.630Z",
+        "updated_at": "2023-07-31T21:32:57.429Z",
+        "vehicle_id": "fc787e82-30e5-42d6-8ab6-a83cc9bd68e5"
+      },
+      {
+        "id": "31ba133a-929c-40ab-b937-456f48ac7fc3",
+        "usage_info": "City driving",
+        "created_at": "2023-07-31T20:11:49.564Z",
+        "updated_at": "2023-08-01T04:38:11.489Z",
+        "vehicle_id": "ea9e8e70-2690-41d4-9f72-7fdeea7ff776"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "9c378daf-2c23-4f1f-b5d5-0e2212aac319",
+        "reservation_info": "Beach vacation",
+        "created_at": "2023-08-01T17:40:10.829Z",
+        "updated_at": "2023-08-01T15:39:43.484Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4daa56d-09ed-4c2c-b3b5-1a48a3fcf295",
+        "reservation_info": "Mountain getaway",
+        "created_at": "2023-08-01T08:29:34.697Z",
+        "updated_at": "2023-08-01T09:38:27.488Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "567547ee-c7c3-462b-b4fd-00aa71410496",
+        "reservation_info": "Ski trip",
+        "created_at": "2023-08-01T09:31:49.504Z",
+        "updated_at": "2023-07-31T22:10:02.409Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb822934-793f-4b20-8981-5f474f979850",
+        "reservation_info": "National park visit",
+        "created_at": "2023-08-01T10:21:56.787Z",
+        "updated_at": "2023-08-01T06:24:48.872Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f186dcd-2fa4-42cd-b968-90f630b86e02",
+        "reservation_info": "City exploration",
+        "created_at": "2023-08-01T14:38:12.599Z",
+        "updated_at": "2023-08-01T12:33:56.575Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "5bce910e-1017-400d-a7cd-c599fdeeef0b",
+        "assessment_info": "Quarterly review",
+        "created_at": "2023-08-01T15:39:15.273Z",
+        "updated_at": "2023-08-01T10:01:07.069Z",
+        "vehicle_id": "ce8795c1-9700-4f61-acc6-16caa3614019"
+      },
+      {
+        "id": "7eeadb32-56a4-4b97-a83a-dfc2f40f103c",
+        "assessment_info": "Annual evaluation",
+        "created_at": "2023-08-01T04:50:00.064Z",
+        "updated_at": "2023-08-01T05:07:03.869Z",
+        "vehicle_id": "ce8795c1-9700-4f61-acc6-16caa3614019"
+      },
+      {
+        "id": "4d3d19bc-f2ad-453d-b52a-a180e25739be",
+        "assessment_info": "Project assessment",
+        "created_at": "2023-07-31T23:05:41.761Z",
+        "updated_at": "2023-08-01T12:02:43.250Z",
+        "vehicle_id": "be168295-cc8b-438f-9e99-293326fb38b3"
+      },
+      {
+        "id": "cd1d21b8-1e9e-4333-8f14-7d16fe64ee9d",
+        "assessment_info": "Performance appraisal",
+        "created_at": "2023-08-01T00:01:08.343Z",
+        "updated_at": "2023-08-01T01:54:44.679Z",
+        "vehicle_id": "be168295-cc8b-438f-9e99-293326fb38b3"
+      },
+      {
+        "id": "ea8aa391-f955-41aa-9c8a-45f40b7789b6",
+        "assessment_info": "Team performance analysis",
+        "created_at": "2023-08-01T07:48:17.303Z",
+        "updated_at": "2023-08-01T02:07:07.227Z",
+        "vehicle_id": "ea9e8e70-2690-41d4-9f72-7fdeea7ff776"
+      }
+    ]
+  }
+]
